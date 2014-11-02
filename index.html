@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Админка ЛШ</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">/\\\ Админка</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Заявки</a></li>
+        <li><a href="#">О Мастерской</a></li>
+        <li><a href="#">Анкеты</a></li>
+        <li><a href="#">Вопросы</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Профиль</a></li>
+        <li><a href="#">Выход</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+  <div class="inverse">
+    <ul class="nav nav-pills nav-justified" role="tablist">
+      <li role="presentation" class="active"><a href="#"><h1>804<span class="badge">42</span></h1>Поданные</a></li>
+      <li role="presentation"><a href="#"><h1>483</h1>Первый тур</a></li>
+      <li role="presentation"><a href="#"><h1>14</h1>Второй тур</a></li>
+      <li role="presentation"><a href="#"><h1>4</h1>Принятые</a></li>
+      <li role="presentation"><a href="#"><h1>134</h1>Отклоненные</a></li>
+    </ul>
+    <nav class="navbar navbar-inverse" role="search">
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="row">
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default"><span class="fa fa-search"></span></button>
+          <div class="checkbox-inline" type="checkbox">
+            <label>
+              <input type="checkbox">
+              Сортировать по рейтингу
+            </label>
+          </div>
+          <button class="btn btn-default pull-right">Групповые действия</button>
+        </form>
+        </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#searchNav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div><!-- /.navbar-collapse -->
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- Single button -->
+    </nav>
+    <div class="text-center clearfix">
+      <button type="button" class="btn btn-danger pull-left">Отказать</button>
+      <button type="button" class="btn btn-primary pull-right">Пригласить в следующий тур</button>
+      <button type="button" class="btn btn-primary pull-right">Принять</button>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="request">
+    <div class="checkbox h4">
+      <label>
+        <input type="checkbox">
+        Маша Михайлова
+      </label>
+    </div>
+    <div class="media">
+      <a class="media-left" href="#">
+        <img src="sources/mock1.jpg" alt="Маша Михайлова">
+      </a>
+      <div class="media-body">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-phone" href="#">+ 7 (987) 987-67-23</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav">
+              <li><a href="mailto:masha@kakasha.omn">masha@kakasha.omn</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-vk"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+          </div><!-- /.container-fluid -->
+          <div class="container-fluid">
+            <p>Комментарий</p>
+            <p>
+              <textarea name="description" id="" rows="4" class="form-control" placeholder="Комментарий"></textarea>
+            </p>
+            <button class="btn btn-danger">Отказать</button>
+            <button class="btn btn-primary pull-right">Пригласить в следующий тур</button>
+            <button class="btn btn-primary pull-right">Принять</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="request">
+    <div class="checkbox h4">
+      <label>
+        <input type="checkbox">
+        Маша Михайлова
+      </label>
+    </div>
+    <div class="media">
+      <a class="media-left" href="#">
+        <img src="sources/mock1.jpg" alt="Маша Михайлова">
+      </a>
+      <div class="media-body">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a class="navbar-phone" href="#">+ 7 (987) 987-67-23</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <ul class="nav navbar-nav">
+              <li><a href="mailto:masha@kakasha.omn">masha@kakasha.omn</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><i class="fa fa-vk"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+          </div><!-- /.container-fluid -->
+          <div class="container-fluid">
+            <p>Комментарий</p>
+            <p>
+              <textarea name="description" id="" rows="4" class="form-control" placeholder="Комментарий"></textarea>
+            </p>
+            <button class="btn btn-danger">Отказать</button>
+            <button class="btn btn-primary pull-right">Пригласить в следующий тур</button>
+            <button class="btn btn-primary pull-right">Принять</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="bower/jquery/dist/jquery.min.js"></script>
+<script src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
